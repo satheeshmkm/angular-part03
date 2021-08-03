@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-part03';
+  parentValue:string='';
+sendToParent(parentTxtValue:string){
+  this.parentValue=parentTxtValue;
+
 }
+}
+
+
